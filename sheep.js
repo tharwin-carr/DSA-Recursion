@@ -1,4 +1,4 @@
-const countSheep = function(sheepNum) {
+const countSheep = sheepNum => {
     //Base case 
     if (sheepNum === 0) {
         console.log('All sheep jumped over the fence');
